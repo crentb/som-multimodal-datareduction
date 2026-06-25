@@ -11,12 +11,12 @@ All notable changes to this project are documented in this file. The format is b
 - Initial version of a multimodal SOM data-reduction pipeline, distilled from the
   `SOM_Analysis_CR` / `SOM_Visualization_CR` Jupyter notebooks into a headless,
   single-command package (no ipywidgets).
-- `som_multimodal.train` — build + train a SOMPY map over chosen feature columns and
+- `som_multimodal.train` - build + train a SOMPY map over chosen feature columns and
   save the trained codebook (plus source data + metadata) to an HDF5 file.
-- `som_multimodal.visualize` — render component-plane heat maps, a cluster-category
+- `som_multimodal.visualize` - render component-plane heat maps, a cluster-category
   map (nodes by k-means cluster, points by a metadata column), and a U-matrix.
-- `som_multimodal.analysis` — elbow + silhouette diagnostics to choose the cluster count.
-- `som_multimodal.pipeline` — end-to-end train→visualize driver.
+- `som_multimodal.analysis` - elbow + silhouette diagnostics to choose the cluster count.
+- `som_multimodal.pipeline` - end-to-end train->visualize driver.
 - `RunConfig` single source of truth for all parameters; shared argparse CLIs
   (`som-train`, `som-visualize`, `som-analysis`, `som-pipeline`).
 - Vendored SOMPY core (`som_multimodal/_vendor/sompy`, Apache-2.0, verbatim except 3

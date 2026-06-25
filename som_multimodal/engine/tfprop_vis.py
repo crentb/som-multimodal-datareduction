@@ -40,7 +40,7 @@ from som_multimodal.engine.strings import str_wrap_chem
 
 # ---- Engine defaults (previously read from the global ``tfprop_config``) -------
 # Random seed for the k-means clusterer applied to the SOM codebook. 555 is the
-# value Cameron used throughout the JMBBM 2022 enamel study; kept for parity.
+# value used throughout the JMBBM 2022 enamel study; kept for parity.
 KM_SEED = 555
 # Random seed for the (jittered) data-point label placement on maps.
 labels_rand_seed = 555

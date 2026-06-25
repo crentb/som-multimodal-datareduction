@@ -1,9 +1,8 @@
 """
 HDF5 persistence for trained SOMs (codebook + source data + metadata).
 
-The on-disk schema mirrors the one Cameron used in the JMBBM 2022 enamel
-notebooks, so codebooks remain interchangeable between this package and the
-original analysis:
+The on-disk schema mirrors the one from the JMBBM 2022 enamel notebooks, so
+codebooks remain interchangeable between this package and the original analysis:
 
     /sm_codebook_matrix    pandas DataFrame  (n_nodes x n_features) trained codebook
     /sm_data               pandas DataFrame  the source rows (id column dropped)

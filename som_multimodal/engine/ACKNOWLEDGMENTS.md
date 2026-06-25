@@ -1,4 +1,4 @@
-# Acknowledgments — `som_multimodal.engine` and `som_multimodal._vendor`
+# Acknowledgments - `som_multimodal.engine` and `som_multimodal._vendor`
 
 The self-organizing-map machinery in this package is **built on, and contains
 modified copies of, prior open-source work**. None of the SOM core or its
@@ -6,11 +6,11 @@ visualization layer is claimed as original; only Cameron Renteria's
 *modifications* and the *overall multimodal data-reduction pipeline* around them
 are. All upstreams are redistributed under their original Apache-2.0 terms.
 
-## 1. SOMPY — the SOM core (vendored, in `som_multimodal/_vendor/sompy/`)
+## 1. SOMPY - the SOM core (vendored, in `som_multimodal/_vendor/sompy/`)
 
 > **SOMPY: A Python Library for Self Organizing Map (SOM)**
 > Vahid Moosavi (@sevamoo) and contributors.
-> https://github.com/sevamoo/SOMPY — Apache License 2.0.
+> https://github.com/sevamoo/SOMPY - Apache License 2.0.
 
 Vendored from SOMPY 1.1.1, **verbatim** except for three internal imports
 (`from sompy.visualization.plot_tools import ...`) rewritten to package-relative
@@ -20,13 +20,13 @@ namespace. The original `LICENSE` is preserved at
 PyPI) because the PyPI package named `sompy` is a *different, unrelated* project;
 the implementation used here is only distributed via sevamoo's GitHub.
 
-## 2. tfprop_sompy — the SOM visualization layer (modified, in `engine/`)
+## 2. tfprop_sompy - the SOM visualization layer (modified, in `engine/`)
 
 > **tfprop_sompy: Self-Organizing Map Data-Mining for Thermo-Fluid Properties**
 > Gota Kikugawa and Yuta Nishimura, Tohoku University, Japan.
 
 `engine/tfprop_vis.py` and `engine/strings.py` are **modified versions** of that
-project's visualization helpers. Cameron Renteria's modifications (© 2026,
+project's visualization helpers. Cameron Renteria's modifications ((c) 2026,
 Apache-2.0) are summarized in each file's header and include: decoupling the code
 from a global configuration module, repointing all imports at the vendored SOMPY,
 fixing several modern-Matplotlib/NumPy incompatibilities so the code actually

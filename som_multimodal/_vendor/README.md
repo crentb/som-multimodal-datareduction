@@ -3,10 +3,10 @@
 Third-party code vendored verbatim (or near-verbatim) so the package is
 self-contained and reproducible. **This code is not original to this project.**
 
-## `sompy/` — SOMPY 1.1.1
+## `sompy/` - SOMPY 1.1.1
 
 A Python Self-Organizing-Map library by **Vahid Moosavi (@sevamoo)** and
-contributors — https://github.com/sevamoo/SOMPY — licensed **Apache-2.0**
+contributors - https://github.com/sevamoo/SOMPY - licensed **Apache-2.0**
 (see `sompy/LICENSE`).
 
 Vendored verbatim except that three internal absolute imports

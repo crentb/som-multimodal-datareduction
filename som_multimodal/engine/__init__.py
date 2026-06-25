@@ -5,7 +5,7 @@ This subpackage carries a modified version of the ``tfprop_sompy`` visualization
 layer (Kikugawa & Nishimura, Tohoku University) on top of the vendored SOMPY
 library (Moosavi / sevamoo). Both upstreams are Apache-2.0. See
 ``ACKNOWLEDGMENTS.md`` (this directory) and the repository ``NOTICE`` for the full
-provenance and the list of Cameron Renteria's modifications.
+provenance and the full list of modifications.
 
 Only the symbols re-exported below are part of this package's public surface; the
 rest of the upstream module is kept for fidelity but is not API-stable.

@@ -8,7 +8,7 @@ feature set, and the dataset are original to this project; the SOM core and its
 visualization layer are not (see below).
 
 --------------------------------------------------------------------------------
-1. SOMPY  (vendored verbatim, except 3 imports — som_multimodal/_vendor/sompy/)
+1. SOMPY  (vendored verbatim, except 3 imports - som_multimodal/_vendor/sompy/)
 --------------------------------------------------------------------------------
    "SOMPY: A Python Library for Self Organizing Map (SOM)"
    Copyright (c) Vahid Moosavi (@sevamoo) and contributors.
@@ -17,7 +17,7 @@ visualization layer are not (see below).
    Original license retained at som_multimodal/_vendor/sompy/LICENSE.
 
 --------------------------------------------------------------------------------
-2. tfprop_sompy  (MODIFIED — som_multimodal/engine/tfprop_vis.py, strings.py)
+2. tfprop_sompy  (MODIFIED - som_multimodal/engine/tfprop_vis.py, strings.py)
 --------------------------------------------------------------------------------
    "tfprop_sompy: Self-Organizing Map Data-Mining for Thermo-Fluid Properties"
    Developed by Gota Kikugawa and Yuta Nishimura (Tohoku University, Japan),
