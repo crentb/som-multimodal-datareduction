@@ -1,0 +1,110 @@
+# Packaging + tooling for som-multimodal-datareduction (PEP 621).
+# Editable-installable ("pip install -e .[dev]"); deps, lint/format/type config,
+# and test markers all live here so one config drives local dev and CI.
+#
+# The vendored SOM core (som_multimodal/_vendor) and the modified visualization
+# engine (som_multimodal/engine) are EXCLUDED from ruff/black/mypy: they are
+# upstream / upstream-derived code carried for fidelity, not held to this
+# project's style. The original-authored pipeline + tests ARE gated.
+[build-system]
+requires      = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name            = "som-multimodal-datareduction"
+version         = "0.1.0"
+description     = "Self-Organizing-Map data reduction for multimodal materials data (nanomechanics + Raman + fracture), applied to tooth enamel."
+readme          = "README.md"
+requires-python = ">=3.10"
+license         = { text = "Apache-2.0" }
+authors         = [{ name = "Cameron B. Renteria", email = "crentb@uw.edu" }]
+keywords = [
+    "self-organizing map", "SOM", "unsupervised learning", "multimodal",
+    "data reduction", "clustering", "materials science", "tooth enamel",
+    "Raman", "nanoindentation",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+# Core runtime deps. No GPU / deep-learning stack: SOMPY needs only the standard
+# scientific Python libraries; `tables` (PyTables) backs the HDF5 codebook I/O.
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+    "pandas>=1.5",
+    "matplotlib>=3.7",
+    "tables>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-cov>=4.1", "ruff==0.14.10", "black==25.11.0", "mypy==1.17.1", "pre-commit>=3.7"]
+
+[project.scripts]
+som-train     = "som_multimodal.train:main"
+som-visualize = "som_multimodal.visualize:main"
+som-analysis  = "som_multimodal.analysis:main"
+som-pipeline  = "som_multimodal.pipeline:main"
+
+[project.urls]
+Homepage = "https://github.com/crentb/som-multimodal-datareduction"
+Issues   = "https://github.com/crentb/som-multimodal-datareduction/issues"
+
+[tool.setuptools.packages.find]
+where   = ["."]
+include = ["som_multimodal*"]
+
+[tool.setuptools.package-data]
+# Ship the vendored SOMPY license alongside the vendored code.
+"som_multimodal._vendor.sompy" = ["LICENSE"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "slow: full-size SOM training on the real dataset; skipped in default CI",
+]
+
+[tool.ruff]
+line-length    = 100
+target-version = "py310"
+# Vendored SOMPY + modified engine are not held to this project's lint rules.
+extend-exclude = ["som_multimodal/_vendor", "som_multimodal/engine"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]            # pycodestyle errors, pyflakes, isort
+ignore = ["E501", "E402", "F841"]   # long lines (black), import-after-stmt (CLIs), unused locals
+
+[tool.black]
+line-length    = 100
+target-version = ["py310", "py311", "py312"]
+extend-exclude = '''
+/(
+    som_multimodal/_vendor
+  | som_multimodal/engine
+)/
+'''
+
+[tool.mypy]
+python_version         = "3.10"
+ignore_missing_imports = true        # third-party libs (sompy, tables, ...) ship no stubs
+exclude                = ['som_multimodal/_vendor/', 'som_multimodal/engine/']
+
+# Treat the vendored SOMPY + modified engine as opaque: don't type-check them even
+# when the original-authored code imports them (they are upstream-derived).
+[[tool.mypy.overrides]]
+module          = ["som_multimodal._vendor.*", "som_multimodal.engine.*"]
+follow_imports  = "skip"
+ignore_errors   = true
+
+[tool.coverage.run]
+source = ["som_multimodal"]
+omit   = ["som_multimodal/_vendor/*", "som_multimodal/engine/*"]

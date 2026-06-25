@@ -1,0 +1,40 @@
+# Citation metadata (Citation File Format 1.2.0). Set `version`/`date-released`
+# only when a versioned release is actually tagged.
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software (below) and the dataset/method paper (preferred-citation)."
+title: "som-multimodal-datareduction"
+abstract: "A reproducible command-line pipeline that applies Self-Organizing Maps and k-means to multimodal materials data (nanomechanics, Raman, and fracture metrics on tooth enamel), producing component-plane heat maps, cluster-category maps, and U-matrices. Built on a vendored SOMPY core and a modified tfprop_sompy visualization layer."
+type: software
+authors:
+  - family-names: "Renteria"
+    given-names: "Cameron B."
+    email: "crentb@uw.edu"
+    affiliation: "University of Washington"
+version: "0.1.0"
+license: "Apache-2.0"
+repository-code: "https://github.com/crentb/som-multimodal-datareduction"
+keywords:
+  - "self-organizing map"
+  - "unsupervised learning"
+  - "multimodal data reduction"
+  - "clustering"
+  - "tooth enamel"
+  - "Raman"
+  - "nanoindentation"
+preferred-citation:
+  type: article
+  title: "Contributions to enamel durability with aging: An application of data science tools"
+  year: 2022
+  journal: "Journal of the Mechanical Behavior of Biomedical Materials"
+  volume: 129
+  start: 105147
+  doi: "10.1016/j.jmbbm.2022.105147"
+  authors:
+    - family-names: "Renteria"
+      given-names: "Cameron"
+    - family-names: "Yan"
+      given-names: "Wei"
+    - family-names: "Huang"
+      given-names: "Yue Luna"
+    - family-names: "Arola"
+      given-names: "Dwayne D."

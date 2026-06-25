@@ -1,0 +1,46 @@
+som-multimodal-datareduction
+Copyright 2026 Cameron B. Renteria
+
+This product includes software developed by third parties, redistributed here in
+original or MODIFIED form under their respective licenses. The overall pipeline,
+the HDF5 codebook schema, the de-widgetized command-line interface, the enamel
+feature set, and the dataset are original to this project; the SOM core and its
+visualization layer are not (see below).
+
+--------------------------------------------------------------------------------
+1. SOMPY  (vendored verbatim, except 3 imports — som_multimodal/_vendor/sompy/)
+--------------------------------------------------------------------------------
+   "SOMPY: A Python Library for Self Organizing Map (SOM)"
+   Copyright (c) Vahid Moosavi (@sevamoo) and contributors.
+   Licensed under the Apache License, Version 2.0.
+   https://github.com/sevamoo/SOMPY
+   Original license retained at som_multimodal/_vendor/sompy/LICENSE.
+
+--------------------------------------------------------------------------------
+2. tfprop_sompy  (MODIFIED — som_multimodal/engine/tfprop_vis.py, strings.py)
+--------------------------------------------------------------------------------
+   "tfprop_sompy: Self-Organizing Map Data-Mining for Thermo-Fluid Properties"
+   Developed by Gota Kikugawa and Yuta Nishimura (Tohoku University, Japan),
+   built on SOMPY. The files in som_multimodal/engine/ are MODIFIED versions of
+   that work; modifications Copyright 2026 Cameron B. Renteria, Apache-2.0.
+   Each modified file documents its changes in a header; see also
+   som_multimodal/engine/ACKNOWLEDGMENTS.md.
+
+--------------------------------------------------------------------------------
+3. Notebook / template lineage
+--------------------------------------------------------------------------------
+   The original Jupyter notebooks descend from SOM-lab teaching templates by
+   Tim Letz (University of Washington,
+   https://github.com/timletz/materials_datascience_uw_somlab) and the MSESOM
+   consolidation in the Huang group at the University of Washington.
+
+--------------------------------------------------------------------------------
+Dataset
+--------------------------------------------------------------------------------
+   data/general_main.csv accompanies, and should be cited as:
+   C. Renteria, W. Yan, Y. L. Huang, D. D. Arola, "Contributions to enamel
+   durability with aging: An application of data science tools," Journal of the
+   Mechanical Behavior of Biomedical Materials, vol. 129, 105147, 2022.
+   doi:10.1016/j.jmbbm.2022.105147
+
+This NOTICE file is provided for attribution and does not modify the License.

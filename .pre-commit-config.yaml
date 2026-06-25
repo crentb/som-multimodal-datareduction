@@ -1,0 +1,20 @@
+# Pre-commit hooks: lint + format the original-authored code before it reaches CI.
+# Tool versions are pinned to match pyproject's [dev] extra so local == CI. The
+# vendored SOMPY and the modified engine are excluded (matching pyproject), since
+# they are upstream / upstream-derived code not held to this project's style.
+exclude: '^som_multimodal/(_vendor|engine)/'
+
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.14.10
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+        # we use black for formatting; keep ruff to linting only
+        stages: [manual]
+
+  - repo: https://github.com/psf/black
+    rev: 25.11.0
+    hooks:
+      - id: black
