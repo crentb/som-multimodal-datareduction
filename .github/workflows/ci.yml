@@ -118,7 +118,7 @@ jobs:
         run: docker build -t som-multimodal-datareduction:ci .
 
       - name: Container vulnerability scan (trivy, CRITICAL/HIGH) — GATING
-        uses: aquasecurity/trivy-action@0.24.0
+        uses: aquasecurity/trivy-action@v0.36.0
         with:
           image-ref: som-multimodal-datareduction:ci
           format: table
