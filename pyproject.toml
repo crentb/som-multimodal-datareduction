@@ -12,7 +12,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name            = "som-multimodal-datareduction"
-version         = "0.1.0"
+version         = "0.2.0"
 description     = "Self-Organizing-Map data reduction for multimodal materials data (nanomechanics + Raman + fracture), applied to tooth enamel."
 readme          = "README.md"
 requires-python = ">=3.10"
