@@ -22,9 +22,10 @@ Times are the best of the configured repeats and are single-threaded
 
 The full pipeline run (`train_som` → `visualize_som`) on the shipped
 dataset (`data/general_main.csv`, 138 measurements × 8 enamel features),
-attributed with cProfile (2026-07-15) and captured as a sampling flame
-graph with py-spy at 250 Hz (2026-07-17). Apple-Silicon macOS,
-Python 3.13.
+attributed with cProfile (2026-07-15); the committed flame graph is
+rendered from that same profile (classic bottom-up layout; the SVG
+scales to fit the browser window with click-to-zoom intact).
+Apple-Silicon macOS, Python 3.13.
 
 | Phase | Cost | Reading |
 |---|---|---|
@@ -40,11 +41,17 @@ is a no-change decision. Equivalence fingerprint for any future work:
 topographic_error 0.014492754 · quantization_error 0.319285544 ·
 3 figures.
 
-Tooling note: flameprof cannot render this profile's call graph (its
+Tooling note: stock flameprof cannot render this call graph — its
 inverted-flame pass divides by zero on zero-cumulative-time call groups
-present here), so the committed flame graph is a py-spy sampling
-capture — py-spy needs root on macOS but runs unprivileged on Linux CI
-runners.
+the vendored sompy graph produces. The committed graph therefore uses
+flameprof's collapsed-stack export (with that division guarded) rendered
+by flamegraph.pl; a py-spy sampling capture (root required on macOS,
+unprivileged on Linux CI runners) independently reproduces the same
+shape.
 
 - [`profiling/flame_som_pipeline.svg`](profiling/flame_som_pipeline.svg)
   (open in a browser; box width is time on-stack, click to zoom)
+
+The matching `flame_som_pipeline.collapsed.txt` imports directly into
+[speedscope](https://www.speedscope.app/) for interactive exploration
+(fully client-side; nothing is uploaded).
