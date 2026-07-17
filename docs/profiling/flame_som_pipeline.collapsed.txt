@@ -1,0 +1,371 @@
+project_data (sompy.py:431) 132
+project_data (sompy.py:431);wrapper (base.py:1319) 685
+project_data (sompy.py:431);wrapper (base.py:1319);fit (_kmeans.py:1432) 3030
+project_data (sompy.py:431);predict (_classification.py:245) 2928
+build_u_matrix (umatrix.py:30) 2615
+build_u_matrix (umatrix.py:30);calculate_map_dist (sompy.py:186) 2757
+build_u_matrix (umatrix.py:30);distance_matrix (_kdtree.py:869) 459
+build_u_matrix (umatrix.py:30);distance_matrix (_kdtree.py:869);minkowski_distance (_kdtree.py:63) 418
+build_u_matrix (umatrix.py:30);distance_matrix (_kdtree.py:869);minkowski_distance (_kdtree.py:63);minkowski_distance_p (_kdtree.py:11) 2687
+kmeans_clust (tfprop_vis.py:52) 18
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047) 4
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319) 826
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432) 4591
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);cpu_count (parallel.py:631) 3
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);cpu_count (parallel.py:631);cpu_count (context.py:78) 113
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);cpu_count (parallel.py:631);cpu_count (context.py:78);_count_physical_cores (context.py:227) 5
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);cpu_count (parallel.py:631);cpu_count (context.py:78);_count_physical_cores (context.py:227);_count_physical_cores_darwin (context.py:311) 16
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);cpu_count (parallel.py:631);cpu_count (context.py:78);_count_physical_cores (context.py:227);_count_physical_cores_darwin (context.py:311);run (subprocess.py:512) 1229
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);cpu_count (parallel.py:631);cpu_count (context.py:78);_count_physical_cores (context.py:227);_count_physical_cores_darwin (context.py:311);run (subprocess.py:512);__init__ (subprocess.py:817) 73
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);cpu_count (parallel.py:631);cpu_count (context.py:78);_count_physical_cores (context.py:227);_count_physical_cores_darwin (context.py:311);run (subprocess.py:512);__init__ (subprocess.py:817);_execute_child (subprocess.py:1808) 1311
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);cpu_count (parallel.py:631);cpu_count (context.py:78);_count_physical_cores (context.py:227);_count_physical_cores_darwin (context.py:311);run (subprocess.py:512);__init__ (subprocess.py:817);_execute_child (subprocess.py:1808);<built-in method _posixsubprocess.fork_exec> 2701
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);_check_mkl_vcomp (_kmeans.py:916) 56
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);_check_mkl_vcomp (_kmeans.py:916);_get_threadpool_controller (parallel.py:187) 4
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);_check_mkl_vcomp (_kmeans.py:916);_get_threadpool_controller (parallel.py:187);__init__ (threadpoolctl.py:816) 106
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);_check_mkl_vcomp (_kmeans.py:916);_get_threadpool_controller (parallel.py:187);__init__ (threadpoolctl.py:816);_load_libraries (threadpoolctl.py:967) 3
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);_check_mkl_vcomp (_kmeans.py:916);_get_threadpool_controller (parallel.py:187);__init__ (threadpoolctl.py:816);_load_libraries (threadpoolctl.py:967);_find_libraries_with_dyld (threadpoolctl.py:1019) 856
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);_check_mkl_vcomp (_kmeans.py:916);_get_threadpool_controller (parallel.py:187);__init__ (threadpoolctl.py:816);_load_libraries (threadpoolctl.py:967);_find_libraries_with_dyld (threadpoolctl.py:1019);_make_controller_from_path (threadpoolctl.py:1131) 2511
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);_check_mkl_vcomp (_kmeans.py:916);_get_threadpool_controller (parallel.py:187);__init__ (threadpoolctl.py:816);_load_libraries (threadpoolctl.py:967);_find_libraries_with_dyld (threadpoolctl.py:1019);_make_controller_from_path (threadpoolctl.py:1131);_realpath (threadpoolctl.py:545) 103
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);_check_mkl_vcomp (_kmeans.py:916);_get_threadpool_controller (parallel.py:187);__init__ (threadpoolctl.py:816);_load_libraries (threadpoolctl.py:967);_find_libraries_with_dyld (threadpoolctl.py:1019);_make_controller_from_path (threadpoolctl.py:1131);_realpath (threadpoolctl.py:545);realpath (<frozen posixpath>:391) 2565
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);_check_mkl_vcomp (_kmeans.py:916);_get_threadpool_controller (parallel.py:187);__init__ (threadpoolctl.py:816);_load_libraries (threadpoolctl.py:967);_find_libraries_with_dyld (threadpoolctl.py:1019);_make_controller_from_path (threadpoolctl.py:1131);_realpath (threadpoolctl.py:545);realpath (<frozen posixpath>:391);<built-in method posix.lstat> 5290
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);wrapper (parallel.py:206) 176
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_kmeans.py:1432);wrapper (parallel.py:206);_kmeans_single_lloyd (_kmeans.py:629) 11026
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_pca.py:422) 2
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_pca.py:422);_fit (_pca.py:481) 108
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_pca.py:422);_fit (_pca.py:481);_fit_truncated (_pca.py:696) 110
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_pca.py:422);_fit (_pca.py:481);_fit_truncated (_pca.py:696);_randomized_svd (extmath.py:556) 1145
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_pca.py:422);_fit (_pca.py:481);_fit_truncated (_pca.py:696);_randomized_svd (extmath.py:556);_randomized_range_finder (extmath.py:311) 2300
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_classification.py:221) 9
+kmeans_clust (tfprop_vis.py:52);fit_predict (_kmeans.py:1047);wrapper (base.py:1319);fit (_classification.py:221);_fit (_base.py:467) 2800
+prepare (tfprop_vis.py:334) 373
+prepare (tfprop_vis.py:334);figure (pyplot.py:871) 131
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548) 2001
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525) 11
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358) 16
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372) 742
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372);load_backend_module (registry.py:302) 16
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372);load_backend_module (registry.py:302);import_module (__init__.py:71) 5
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372);load_backend_module (registry.py:302);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375) 8
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372);load_backend_module (registry.py:302);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349) 95
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372);load_backend_module (registry.py:302);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304) 693
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372);load_backend_module (registry.py:302);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911) 150
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372);load_backend_module (registry.py:302);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911);module_from_spec (<frozen importlib._bootstrap>:806) 30
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372);load_backend_module (registry.py:302);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911);module_from_spec (<frozen importlib._bootstrap>:806);create_module (<frozen importlib._bootstrap_external>:1318) 2
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372);load_backend_module (registry.py:302);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911);module_from_spec (<frozen importlib._bootstrap>:806);create_module (<frozen importlib._bootstrap_external>:1318);_call_with_frames_removed (<frozen importlib._bootstrap>:480) 4157
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372);load_backend_module (registry.py:302);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911);exec_module (<frozen importlib._bootstrap_external>:1020) 606
+prepare (tfprop_vis.py:334);figure (pyplot.py:871);new_figure_manager (pyplot.py:548);_warn_if_gui_out_of_main_thread (pyplot.py:525);_get_backend_mod (pyplot.py:358);switch_backend (pyplot.py:372);load_backend_module (registry.py:302);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911);exec_module (<frozen importlib._bootstrap_external>:1020);_call_with_frames_removed (<frozen importlib._bootstrap>:480) 4689
+load_som_h5 (io.py:66) 735
+load_som_h5 (io.py:66);read_hdf (pytables.py:322) 1039
+load_som_h5 (io.py:66);read_hdf (pytables.py:322);select (pytables.py:828) 741
+load_som_h5 (io.py:66);read_hdf (pytables.py:322);select (pytables.py:828);get_result (pytables.py:2021) 324
+load_som_h5 (io.py:66);read_hdf (pytables.py:322);select (pytables.py:828);get_result (pytables.py:2021);func (pytables.py:902) 509
+load_som_h5 (io.py:66);read_hdf (pytables.py:322);select (pytables.py:828);get_result (pytables.py:2021);func (pytables.py:902);read (pytables.py:3337) 2119
+load_som_h5 (io.py:66);read_hdf (pytables.py:322);select (pytables.py:828);get_result (pytables.py:2021);func (pytables.py:902);read (pytables.py:3337);read_index (pytables.py:3010) 2949
+train_som (train.py:26) 3835
+train_som (train.py:26);wrapped_f (decorators.py:8) 2061
+train_som (train.py:26);wrapped_f (decorators.py:8);pca_linear_initialization (codebook.py:65) 820
+train_som (train.py:26);wrapped_f (decorators.py:8);pca_linear_initialization (codebook.py:65);wrapper (base.py:1319) 549
+train_som (train.py:26);wrapped_f (decorators.py:8);pca_linear_initialization (codebook.py:65);wrapper (base.py:1319);fit (_kmeans.py:1432) 2460
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198) 57
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);wrapped_f (decorators.py:8) 1334
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265) 19
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265);_batchtrain (sompy.py:309) 4991
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8) 3189
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);train (sompy.py:198) 3
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);find_bmu (sompy.py:360) 1155
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);find_bmu (sompy.py:360);einsum (einsumfunc.py:1057) 545
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);find_bmu (sompy.py:360);einsum (einsumfunc.py:1057);<built-in method numpy._core._multiarray_umath.c_einsum> 6600
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);find_bmu (sompy.py:360);<built-in method numpy.asarray> 20497
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394) 2816
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);__init__ (_compressed.py:30) 2231
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);<method 'dot' of 'numpy.ndarray' objects> 2182
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);rough_train (sompy.py:265);_batchtrain (sompy.py:309);calculate (neighborhood.py:25) 98615
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285) 32
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285);_batchtrain (sompy.py:309) 5306
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8) 3998
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);train (sompy.py:198) 4
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);find_bmu (sompy.py:360) 1448
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);find_bmu (sompy.py:360);einsum (einsumfunc.py:1057) 683
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);find_bmu (sompy.py:360);einsum (einsumfunc.py:1057);<built-in method numpy._core._multiarray_umath.c_einsum> 8274
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);find_bmu (sompy.py:360);<built-in method numpy.asarray> 25695
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394) 3531
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);__init__ (_compressed.py:30) 2797
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285);_batchtrain (sompy.py:309);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);<method 'dot' of 'numpy.ndarray' objects> 2735
+train_som (train.py:26);wrapped_f (decorators.py:8);train (sompy.py:198);finetune_train (sompy.py:285);_batchtrain (sompy.py:309);calculate (neighborhood.py:25) 123625
+train_som (train.py:26);wrapped_f (decorators.py:8);find_bmu (sompy.py:360) 2441
+train_som (train.py:26);wrapped_f (decorators.py:8);find_bmu (sompy.py:360);_einsum_dispatcher (einsumfunc.py:1049) 5304
+train_som (train.py:26);wrapped_f (decorators.py:8);find_bmu (sompy.py:360);einsum (einsumfunc.py:1057) 3653
+train_som (train.py:26);wrapped_f (decorators.py:8);find_bmu (sompy.py:360);einsum (einsumfunc.py:1057);<built-in method numpy._core._multiarray_umath.c_einsum> 44250
+train_som (train.py:26);wrapped_f (decorators.py:8);find_bmu (sompy.py:360);<built-in method numpy.asarray> 137412
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394) 11429
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);dot (_base.py:584) 410
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);dot (_base.py:584);__matmul__ (_base.py:904) 2153
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);__init__ (_compressed.py:30) 3886
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);__init__ (_compressed.py:30);__init__ (_coo.py:30) 1933
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);__init__ (_compressed.py:30);__init__ (_coo.py:30);_get_index_dtype (_base.py:1532) 284
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);__init__ (_compressed.py:30);__init__ (_coo.py:30);_get_index_dtype (_base.py:1532);get_index_dtype (_sputils.py:264) 2822
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);__init__ (_compressed.py:30);__init__ (_coo.py:30);_check (_coo.py:202) 3223
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);__init__ (_compressed.py:30);_coo_to_compressed (_coo.py:381) 2811
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);sum (_compressed.py:492) 2413
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);sum (_compressed.py:492);_minor_reduce (_compressed.py:516) 2476
+train_som (train.py:26);wrapped_f (decorators.py:8);update_codebook_voronoi (sompy.py:394);<method 'dot' of 'numpy.ndarray' objects> 14629
+train_som (train.py:26);wrapped_f (decorators.py:8);__call__ (util.py:197) 605
+train_som (train.py:26);wrapped_f (decorators.py:8);__call__ (util.py:197);_terminate_pool (pool.py:680) 1769
+train_som (train.py:26);wrapped_f (decorators.py:8);__call__ (util.py:197);_terminate_pool (pool.py:680);put (queues.py:389) 3153
+train_som (train.py:26);wrapped_f (decorators.py:8);__call__ (util.py:197);_cleanup (synchronize.py:84) 2606
+train_som (train.py:26);build (sompy.py:42) 51
+train_som (train.py:26);build (sompy.py:42);__init__ (sompy.py:98) 61
+train_som (train.py:26);build (sompy.py:42);__init__ (sompy.py:98);calculate_map_dist (sompy.py:186) 2396
+train_som (train.py:26);save_som_h5 (io.py:26) 2116
+train_som (train.py:26);save_som_h5 (io.py:26);__init__ (pytables.py:567) 169
+train_som (train.py:26);save_som_h5 (io.py:26);__init__ (pytables.py:567);open (pytables.py:715) 24
+train_som (train.py:26);save_som_h5 (io.py:26);__init__ (pytables.py:567);open (pytables.py:715);open_file (file.py:216) 173
+train_som (train.py:26);save_som_h5 (io.py:26);__init__ (pytables.py:567);open (pytables.py:715);open_file (file.py:216);__init__ (file.py:761) 3737
+train_som (train.py:26);save_som_h5 (io.py:26);__setitem__ (pytables.py:617) 3
+train_som (train.py:26);save_som_h5 (io.py:26);__setitem__ (pytables.py:617);put (pytables.py:1114) 36
+train_som (train.py:26);save_som_h5 (io.py:26);__setitem__ (pytables.py:617);put (pytables.py:1114);_write_to_group (pytables.py:1828) 1313
+train_som (train.py:26);save_som_h5 (io.py:26);__setitem__ (pytables.py:617);put (pytables.py:1114);_write_to_group (pytables.py:1828);write (pytables.py:3382) 1926
+train_som (train.py:26);save_som_h5 (io.py:26);__setitem__ (pytables.py:617);put (pytables.py:1114);_write_to_group (pytables.py:1828);write (pytables.py:3382);write_index (pytables.py:3024) 2469
+train_som (train.py:26);save_som_h5 (io.py:26);__setitem__ (pytables.py:617);put (pytables.py:1114);_write_to_group (pytables.py:1828);write (pytables.py:3382);write_index (pytables.py:3024);write_array (pytables.py:3159) 2422
+train_som (train.py:26);read_csv (readers.py:868) 225
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583) 1999
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575) 48
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848) 501
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664) 101
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165) 48
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186) 221
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186);import_optional_dependency (_optional.py:85) 156
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186);import_optional_dependency (_optional.py:85);import_module (__init__.py:71) 6
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186);import_optional_dependency (_optional.py:85);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375) 4
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186);import_optional_dependency (_optional.py:85);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349) 52
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186);import_optional_dependency (_optional.py:85);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304) 380
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186);import_optional_dependency (_optional.py:85);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911) 83
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186);import_optional_dependency (_optional.py:85);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911);module_from_spec (<frozen importlib._bootstrap>:806) 16
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186);import_optional_dependency (_optional.py:85);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911);module_from_spec (<frozen importlib._bootstrap>:806);create_module (<frozen importlib._bootstrap_external>:1318) 1
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186);import_optional_dependency (_optional.py:85);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911);module_from_spec (<frozen importlib._bootstrap>:806);create_module (<frozen importlib._bootstrap_external>:1318);_call_with_frames_removed (<frozen importlib._bootstrap>:480) 2280
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186);import_optional_dependency (_optional.py:85);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911);exec_module (<frozen importlib._bootstrap_external>:1020) 332
+train_som (train.py:26);read_csv (readers.py:868);_read (readers.py:583);__init__ (readers.py:1575);_make_engine (readers.py:1848);get_handle (common.py:664);_is_binary_mode (common.py:1165);_get_binary_io_classes (common.py:1186);import_optional_dependency (_optional.py:85);import_module (__init__.py:71);_gcd_import (<frozen importlib._bootstrap>:1375);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911);exec_module (<frozen importlib._bootstrap_external>:1020);_call_with_frames_removed (<frozen importlib._bootstrap>:480) 2571
+_rebuild_som (visualize.py:39) 227
+_rebuild_som (visualize.py:39);build (sompy.py:42) 54
+_rebuild_som (visualize.py:39);build (sompy.py:42);__init__ (sompy.py:98) 63
+_rebuild_som (visualize.py:39);build (sompy.py:42);__init__ (sompy.py:98);calculate_map_dist (sompy.py:186) 2476
+wrapper (deprecation.py:442) 5
+wrapper (deprecation.py:442);inner (__init__.py:1521) 2703
+get_tightbbox (artist.py:348) 2289
+get_tightbbox (artist.py:348);get_window_extent (spines.py:142) 2619
+get_tightbbox (artist.py:348);get_window_extent (spines.py:142);_update_ticks (axis.py:1276) 3987
+get_tightbbox (artist.py:348);get_window_extent (spines.py:142);_update_ticks (axis.py:1276);get_minorticklocs (axis.py:1527) 2313
+get_tightbbox (artist.py:348);get_window_extent (spines.py:142);_update_ticks (axis.py:1276);get_major_ticks (axis.py:1644) 2324
+text (_axes.py:637) 1111
+text (_axes.py:637);__init__ (text.py:104) 681
+text (_axes.py:637);__init__ (text.py:104);_reset_visual_defaults (text.py:157) 4122
+text (_axes.py:637);__init__ (text.py:104);update (text.py:194) 2441
+text (_axes.py:637);set_clip_path (text.py:592) 88
+text (_axes.py:637);set_clip_path (text.py:592);set_clip_path (artist.py:784) 1639
+text (_axes.py:637);set_clip_path (text.py:592);set_clip_path (artist.py:784);get_transform (patches.py:307) 418
+text (_axes.py:637);set_clip_path (text.py:592);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800) 2672
+plot (_axes.py:1532) 2296
+plot (_axes.py:1532);__call__ (_base.py:227) 3226
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396) 9573
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);_process_plot_format (_base.py:121) 2200
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);_process_plot_format (_base.py:121);to_rgba (colors.py:278) 2712
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);_process_plot_format (_base.py:121);to_rgba (colors.py:278);_is_nth_color (colors.py:219) 2716
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);_process_plot_format (_base.py:121);to_rgba (colors.py:278);_to_rgba_no_colorcycle (colors.py:325) 2137
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);_process_plot_format (_base.py:121);to_rgba (colors.py:278);_to_rgba_no_colorcycle (colors.py:325);match (__init__.py:164) 2154
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539) 1038
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335) 3420
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301) 25177
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);__getitem__ (__init__.py:781) 2933
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);__init__ (artist.py:179) 5392
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);_internal_update (artist.py:1226) 320
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);_internal_update (artist.py:1226);_update_props (artist.py:1188) 15249
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);_internal_update (artist.py:1226);_update_props (artist.py:1188);__enter__ (contextlib.py:136) 349
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);_internal_update (artist.py:1226);_update_props (artist.py:1188);__enter__ (contextlib.py:136);<built-in method builtins.next> 2425
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);set_data (lines.py:662) 2827
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);set_data (lines.py:662);set_xdata (lines.py:1290) 2708
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);set_color (lines.py:1073) 631
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);set_color (lines.py:1073);_check_color_like (colors.py:243) 693
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);set_color (lines.py:1073);_check_color_like (colors.py:243);is_color_like (colors.py:224) 2561
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);set_linestyle (lines.py:1158) 3984
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);set_markerfacecolor (lines.py:1241) 286
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);set_markerfacecolor (lines.py:1241);_set_markercolor (lines.py:1217) 2065
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);set_markerfacecolor (lines.py:1241);_set_markercolor (lines.py:1217);__getitem__ (__init__.py:781) 4572
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);__init__ (markers.py:220) 1215
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);__init__ (markers.py:220);_set_marker (markers.py:299) 2719
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);<genexpr> (_base.py:539);_make_line (_base.py:335);__init__ (lines.py:301);__init__ (markers.py:220);_set_marker (markers.py:299);deepcopy (copy.py:119) 3248
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);update_units (axis.py:1738) 724
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);update_units (axis.py:1738);get_converter (units.py:164) 5606
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);update_units (axis.py:1738);get_converter (units.py:164);_safe_first_finite (cbook.py:1705) 4116
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);update_units (axis.py:1738);get_converter (units.py:164);_unpack_to_numpy (cbook.py:2368) 4239
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);update_units (axis.py:1738);get_converter (units.py:164);get_converter (units.py:164) 5203
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);update_units (axis.py:1738);get_converter (units.py:164);get_converter (units.py:164);get_converter (units.py:164) 620
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);_check_1d (cbook.py:1358) 3753
+plot (_axes.py:1532);__call__ (_base.py:227);_plot_args (_base.py:396);_check_1d (cbook.py:1358);_unpack_to_numpy (cbook.py:2368) 6086
+plot (_axes.py:1532);__call__ (_base.py:227);_process_unit_info (_base.py:2624) 2652
+plot (_axes.py:1532);__call__ (_base.py:227);sanitize_sequence (cbook.py:1744) 2193
+plot (_axes.py:1532);_request_autoscale_view (_base.py:907) 2528
+plot (_axes.py:1532);add_line (_base.py:2408) 5957
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784) 4176
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);stale (artist.py:315) 2955
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307) 1433
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800) 6025
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);get_bbox (patches.py:934) 697
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);get_bbox (patches.py:934);_convert_units (patches.py:792) 2752
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);get_bbox (patches.py:934);from_extents (transforms.py:805) 2958
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);get_bbox (patches.py:934);from_extents (transforms.py:805);reshape (fromnumeric.py:211) 429
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);get_bbox (patches.py:934);from_extents (transforms.py:805);reshape (fromnumeric.py:211);_wrapfunc (fromnumeric.py:51) 3131
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);__add__ (transforms.py:1341) 460
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);__add__ (transforms.py:1341);composite_transform_factory (transforms.py:2499) 3058
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);rotate_deg (transforms.py:1996) 623
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);rotate_deg (transforms.py:1996);rotate (transforms.py:1973) 2145
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);translate (transforms.py:2028) 2181
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);scale (transforms.py:2041) 2551
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);get_patch_transform (patches.py:800);__init__ (transforms.py:2576) 3187
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);__add__ (transforms.py:1341) 460
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);get_transform (patches.py:307);__add__ (transforms.py:1341);composite_transform_factory (transforms.py:2499) 2824
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);unit (transforms.py:786) 706
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);unit (transforms.py:786);__init__ (transforms.py:750) 2962
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);__init__ (transforms.py:1088) 2375
+plot (_axes.py:1532);add_line (_base.py:2408);set_clip_path (artist.py:784);__init__ (transforms.py:1088);check_isinstance (__init__.py:65) 5154
+plot (_axes.py:1532);add_line (_base.py:2408);set_label (artist.py:1105) 621
+plot (_axes.py:1532);add_line (_base.py:2408);set_label (artist.py:1105);stale (artist.py:315) 2230
+plot (_axes.py:1532);add_line (_base.py:2408);set_label (artist.py:1105);pchanged (artist.py:414) 2403
+plot (_axes.py:1532);add_line (_base.py:2408);_set_artist_props (_base.py:1230) 4021
+plot (_axes.py:1532);add_line (_base.py:2408);_set_artist_props (_base.py:1230);set_figure (artist.py:738) 2183
+plot (_axes.py:1532);add_line (_base.py:2408);_update_line_limits (_base.py:2436) 3420
+plot (_axes.py:1532);add_line (_base.py:2408);_update_line_limits (_base.py:2436);get_path (lines.py:1049) 490
+plot (_axes.py:1532);add_line (_base.py:2408);_update_line_limits (_base.py:2436);get_path (lines.py:1049);recache (lines.py:686) 12433
+plot (_axes.py:1532);add_line (_base.py:2408);_update_line_limits (_base.py:2436);get_path (lines.py:1049);recache (lines.py:686);convert_xunits (artist.py:268) 2432
+plot (_axes.py:1532);add_line (_base.py:2408);_update_line_limits (_base.py:2436);get_path (lines.py:1049);recache (lines.py:686);__init__ (path.py:99) 1618
+plot (_axes.py:1532);add_line (_base.py:2408);_update_line_limits (_base.py:2436);get_path (lines.py:1049);recache (lines.py:686);__init__ (path.py:99);check_shape (__init__.py:147) 3627
+plot (_axes.py:1532);add_line (_base.py:2408);_update_line_limits (_base.py:2436);get_path (lines.py:1049);recache (lines.py:686);__init__ (path.py:99);_update_values (path.py:202) 2191
+plot (_axes.py:1532);add_line (_base.py:2408);_update_line_limits (_base.py:2436);get_path (lines.py:1049);recache (lines.py:686);column_stack (_shape_base_impl.py:628) 3443
+plot (_axes.py:1532);add_line (_base.py:2408);_update_line_limits (_base.py:2436);get_path (lines.py:1049);recache (lines.py:686);broadcast_arrays (_stride_tricks_impl.py:481) 3267
+plot (_axes.py:1532);add_line (_base.py:2408);_update_line_limits (_base.py:2436);update_from_path (transforms.py:850) 660
+plot (_axes.py:1532);add_line (_base.py:2408);_update_line_limits (_base.py:2436);update_from_path (transforms.py:850);<built-in method matplotlib._path.update_path_extents> 3240
+plot (_axes.py:1532);normalize_kwargs (cbook.py:1752) 2921
+get_default_bbox_extra_artists (_base.py:4476) 1336
+get_default_bbox_extra_artists (_base.py:4476);_fully_clipped_to_axes (artist.py:872) 3342
+get_default_bbox_extra_artists (_base.py:4476);_fully_clipped_to_axes (artist.py:872);extents (transforms.py:372) 1193
+get_default_bbox_extra_artists (_base.py:4476);_fully_clipped_to_axes (artist.py:872);extents (transforms.py:372);get_points (transforms.py:1109) 4324
+get_default_bbox_extra_artists (_base.py:4476);_fully_clipped_to_axes (artist.py:872);extents (transforms.py:372);get_points (transforms.py:1109);transform (transforms.py:1473) 1728
+get_default_bbox_extra_artists (_base.py:4476);_fully_clipped_to_axes (artist.py:872);extents (transforms.py:372);get_points (transforms.py:1109);transform (transforms.py:1473);transform_affine (transforms.py:2409) 1620
+get_default_bbox_extra_artists (_base.py:4476);_fully_clipped_to_axes (artist.py:872);extents (transforms.py:372);get_points (transforms.py:1109);transform (transforms.py:1473);transform_affine (transforms.py:2409);get_affine (transforms.py:2432) 5822
+subplots_adjust (figure.py:1313) 2848
+imsave (image.py:1526) 1093
+imsave (image.py:1526);save (Image.py:2476) 1512
+imsave (image.py:1526);save (Image.py:2476);preinit (Image.py:327) 10
+imsave (image.py:1526);save (Image.py:2476);preinit (Image.py:327);_handle_fromlist (<frozen importlib._bootstrap>:1390) 109
+imsave (image.py:1526);save (Image.py:2476);preinit (Image.py:327);_handle_fromlist (<frozen importlib._bootstrap>:1390);_call_with_frames_removed (<frozen importlib._bootstrap>:480) 189
+imsave (image.py:1526);save (Image.py:2476);preinit (Image.py:327);_handle_fromlist (<frozen importlib._bootstrap>:1390);_call_with_frames_removed (<frozen importlib._bootstrap>:480);<built-in method _imp.create_dynamic> 5527
+imsave (image.py:1526);save (Image.py:2476);preinit (Image.py:327);_handle_fromlist (<frozen importlib._bootstrap>:1390);_call_with_frames_removed (<frozen importlib._bootstrap>:480);<built-in method builtins.__import__> 2
+imsave (image.py:1526);save (Image.py:2476);preinit (Image.py:327);_handle_fromlist (<frozen importlib._bootstrap>:1390);_call_with_frames_removed (<frozen importlib._bootstrap>:480);<built-in method builtins.__import__>;_find_and_load (<frozen importlib._bootstrap>:1349) 23
+imsave (image.py:1526);save (Image.py:2476);preinit (Image.py:327);_handle_fromlist (<frozen importlib._bootstrap>:1390);_call_with_frames_removed (<frozen importlib._bootstrap>:480);<built-in method builtins.__import__>;_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304) 161
+imsave (image.py:1526);save (Image.py:2476);preinit (Image.py:327);_handle_fromlist (<frozen importlib._bootstrap>:1390);_call_with_frames_removed (<frozen importlib._bootstrap>:480);<built-in method builtins.__import__>;_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911) 2243
+imsave (image.py:1526);save (Image.py:2476);preinit (Image.py:327);_handle_fromlist (<frozen importlib._bootstrap>:1390);_call_with_frames_removed (<frozen importlib._bootstrap>:480);<built-in method builtins.exec> 6578
+imsave (image.py:1526);save (Image.py:2476);_save (PngImagePlugin.py:1325) 179
+imsave (image.py:1526);save (Image.py:2476);_save (PngImagePlugin.py:1325);_save (ImageFile.py:641) 30
+imsave (image.py:1526);save (Image.py:2476);_save (PngImagePlugin.py:1325);_save (ImageFile.py:641);_encode_tile (ImageFile.py:669) 898
+imsave (image.py:1526);save (Image.py:2476);_save (PngImagePlugin.py:1325);_save (ImageFile.py:641);_encode_tile (ImageFile.py:669);<method 'encode' of 'ImagingEncoder' objects> 118804
+subplot (pyplot.py:1388) 499
+subplot (pyplot.py:1388);add_subplot (figure.py:644) 189
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615) 3101
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);_init_axis (_base.py:864) 126
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);_init_axis (_base.py:864);__init__ (axis.py:2374) 2391
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);_init_axis (_base.py:864);__init__ (axis.py:2598) 2247
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);_gen_axes_spines (_base.py:1257) 31
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);_gen_axes_spines (_base.py:1257);linear_spine (spines.py:439) 472
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);_gen_axes_spines (_base.py:1257);linear_spine (spines.py:439);__init__ (spines.py:35) 2737
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445) 16
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313) 3805
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318) 47
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696) 172
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946) 619
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);_apply_params (axis.py:302) 712
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);_apply_params (axis.py:302);<lambda> (artist.py:146) 110
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);_apply_params (axis.py:302);<lambda> (artist.py:146);set (artist.py:1237) 652
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);_apply_params (axis.py:302);<lambda> (artist.py:146);set (artist.py:1237);_internal_update (artist.py:1226) 59
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);_apply_params (axis.py:302);<lambda> (artist.py:146);set (artist.py:1237);_internal_update (artist.py:1226);_update_props (artist.py:1188) 2215
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);__get__ (axis.py:534) 14
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);__get__ (axis.py:534);_get_tick (axis.py:1585) 27
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:367) 827
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:367);__init__ (axis.py:59) 2505
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:428) 1340
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:428);__init__ (axis.py:59) 4049
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845) 3112
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761) 106
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761);set_default_locators_and_formatters (scale.py:120) 1214
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761);set_default_locators_and_formatters (scale.py:120);__init__ (ticker.py:452) 125
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761);set_default_locators_and_formatters (scale.py:120);__init__ (ticker.py:452);set_useMathText (ticker.py:575) 863
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761);set_default_locators_and_formatters (scale.py:120);__init__ (ticker.py:452);set_useMathText (ticker.py:575);findfont (font_manager.py:1293) 970
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761);set_default_locators_and_formatters (scale.py:120);__init__ (ticker.py:452);set_useMathText (ticker.py:575);findfont (font_manager.py:1293);_findfont_cached (font_manager.py:1453) 4095
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115) 937
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);set_clip_path (axis.py:234) 82
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);set_clip_path (axis.py:234);set_clip_path (artist.py:784) 1242
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);set_clip_path (axis.py:234);set_clip_path (artist.py:784);get_transform (patches.py:307) 2344
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534) 15
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534);_get_tick (axis.py:1585) 32
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:367) 965
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:367);__init__ (axis.py:59) 2922
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:428) 1563
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:428);__init__ (axis.py:59) 2556
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:428);__init__ (axis.py:59);__init__ (lines.py:301) 2167
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);_set_lim (axis.py:1195) 3170
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);tick_params (_base.py:3480) 102
+subplot (pyplot.py:1388);add_subplot (figure.py:644);__init__ (_base.py:615);tick_params (_base.py:3480);set_tick_params (axis.py:946) 2106
+subplots (pyplot.py:1621) 596
+subplots (pyplot.py:1621);subplots (figure.py:785) 26
+subplots (pyplot.py:1621);subplots (figure.py:785);subplots (gridspec.py:249) 36
+subplots (pyplot.py:1621);subplots (figure.py:785);subplots (gridspec.py:249);add_subplot (figure.py:644) 34
+subplots (pyplot.py:1621);subplots (figure.py:785);subplots (gridspec.py:249);add_subplot (figure.py:644);__init__ (_base.py:615) 1988
+subplots (pyplot.py:1621);subplots (figure.py:785);subplots (gridspec.py:249);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445) 2
+subplots (pyplot.py:1621);subplots (figure.py:785);subplots (gridspec.py:249);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313) 4600
+subplots (pyplot.py:1621);subplots (figure.py:785);subplots (gridspec.py:249);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115) 2213
+colorbar (pyplot.py:2519) 66
+colorbar (pyplot.py:2519);colorbar (figure.py:1193) 1681
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224) 3687
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_draw_all (colorbar.py:520) 4604
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_draw_all (colorbar.py:520);_add_solids (colorbar.py:572) 84
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_draw_all (colorbar.py:520);_add_solids (colorbar.py:572);inner (__init__.py:1521) 2534
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_draw_all (colorbar.py:520);_add_solids (colorbar.py:572);inner (__init__.py:1521);contour (_axes.py:6765) 3
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_draw_all (colorbar.py:520);_add_solids (colorbar.py:572);inner (__init__.py:1521);contour (_axes.py:6765);__init__ (contour.py:595) 382
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_draw_all (colorbar.py:520);_add_solids (colorbar.py:572);inner (__init__.py:1521);contour (_axes.py:6765);__init__ (contour.py:595);_process_args (contour.py:1288) 83
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_draw_all (colorbar.py:520);_add_solids (colorbar.py:572);inner (__init__.py:1521);contour (_axes.py:6765);__init__ (contour.py:595);_process_args (contour.py:1288);_find_and_load (<frozen importlib._bootstrap>:1349) 20
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_draw_all (colorbar.py:520);_add_solids (colorbar.py:572);inner (__init__.py:1521);contour (_axes.py:6765);__init__ (contour.py:595);_process_args (contour.py:1288);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304) 166
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_draw_all (colorbar.py:520);_add_solids (colorbar.py:572);inner (__init__.py:1521);contour (_axes.py:6765);__init__ (contour.py:595);_process_args (contour.py:1288);_find_and_load (<frozen importlib._bootstrap>:1349);_find_and_load_unlocked (<frozen importlib._bootstrap>:1304);_load_unlocked (<frozen importlib._bootstrap>:911) 2306
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_draw_all (colorbar.py:520);_do_extends (colorbar.py:637) 2363
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_draw_all (colorbar.py:520);_mesh (colorbar.py:1110) 3519
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);__init__ (colorbar.py:224);_reset_locator_formatter_scale (colorbar.py:1157) 3009
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474) 1749
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644) 121
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615) 3575
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);_init_axis (_base.py:864) 3208
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);_gen_axes_spines (_base.py:1257) 21
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);_gen_axes_spines (_base.py:1257);linear_spine (spines.py:439) 2161
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445) 11
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313) 2562
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318) 32
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696) 116
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946) 417
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);_apply_params (axis.py:302) 2524
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);__get__ (axis.py:534) 10
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);__get__ (axis.py:534);_get_tick (axis.py:1585) 18
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:367) 2243
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:428) 902
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);grid (_base.py:3318);grid (axis.py:1696);set_tick_params (axis.py:946);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:428);__init__ (axis.py:59) 2726
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845) 2096
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761) 72
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761);set_default_locators_and_formatters (scale.py:120) 817
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761);set_default_locators_and_formatters (scale.py:120);__init__ (ticker.py:452) 84
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761);set_default_locators_and_formatters (scale.py:120);__init__ (ticker.py:452);set_useMathText (ticker.py:575) 581
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761);set_default_locators_and_formatters (scale.py:120);__init__ (ticker.py:452);set_useMathText (ticker.py:575);findfont (font_manager.py:1293) 653
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);clear (axis.py:845);_set_scale (axis.py:761);set_default_locators_and_formatters (scale.py:120);__init__ (ticker.py:452);set_useMathText (ticker.py:575);findfont (font_manager.py:1293);_findfont_cached (font_manager.py:1453) 2757
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115) 631
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);set_clip_path (axis.py:234) 55
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);set_clip_path (axis.py:234);set_clip_path (artist.py:784) 2414
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534) 10
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534);_get_tick (axis.py:1585) 21
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:367) 2617
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:428) 1053
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);set_clip_path (axis.py:1115);__get__ (axis.py:534);_get_tick (axis.py:1585);__init__ (axis.py:428);__init__ (axis.py:59) 3180
+colorbar (pyplot.py:2519);colorbar (figure.py:1193);make_axes_gridspec (colorbar.py:1474);add_subplot (figure.py:644);__init__ (_base.py:615);clear (_base.py:1445);__clear (_base.py:1313);_set_lim (axis.py:1195) 2135
