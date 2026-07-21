@@ -6,6 +6,10 @@
 > Behavior of Biomedical Materials** 129, 105147 (2022).
 > doi:[10.1016/j.jmbbm.2022.105147](https://doi.org/10.1016/j.jmbbm.2022.105147)
 
+![som-multimodal-datareduction: from multimodal materials data to interpretable maps](docs/figures/som_pipeline.png)
+
+Full schematic as a PDF: [docs/som_pipeline.pdf](docs/som_pipeline.pdf)
+
 A reproducible, command-line pipeline that applies **Self-Organizing Maps (SOMs)** plus
 **k-means** to *multimodal* materials data - reducing high-dimensional, mixed-source
 measurements to interpretable maps. It is the de-widgetized, packaged version of the
