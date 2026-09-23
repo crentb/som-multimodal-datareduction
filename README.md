@@ -4,13 +4,13 @@ Self-organizing maps (SOMs) and k-means for multimodal materials data: high-dime
 
 [![CI](https://github.com/crentb/som-multimodal-datareduction/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/crentb/som-multimodal-datareduction/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/som-multimodal-datareduction)](https://pypi.org/project/som-multimodal-datareduction/)
-[![Python](https://img.shields.io/badge/python-3.10--3.14-blue)](pyproject.toml)
+[![Python](https://img.shields.io/badge/python-3.10--3.14-blue)](https://github.com/crentb/som-multimodal-datareduction/blob/main/pyproject.toml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21148597.svg)](https://doi.org/10.5281/zenodo.21148597)
-[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue)](https://github.com/crentb/som-multimodal-datareduction/blob/main/LICENSE)
 
-![Pipeline overview: multimodal data, SOM training, k-means clustering of the SOM codebook, and interpretable maps, with the command for each step](docs/figures/som_pipeline.png)
+![Pipeline overview: multimodal data, SOM training, k-means clustering of the SOM codebook, and interpretable maps, with the command for each step](https://raw.githubusercontent.com/crentb/som-multimodal-datareduction/main/docs/figures/som_pipeline.png)
 
-A reproducible command-line pipeline, and the packaged version of the analysis behind the paper below, in which nanomechanical, Raman, and fracture measurements of tooth enamel are fused to map structure-property relationships with aging across species. Vector schematic: [docs/som_pipeline.pdf](docs/som_pipeline.pdf).
+A reproducible command-line pipeline, and the packaged version of the analysis behind the paper below, in which nanomechanical, Raman, and fracture measurements of tooth enamel are fused to map structure-property relationships with aging across species. Vector schematic: [docs/som_pipeline.pdf](https://github.com/crentb/som-multimodal-datareduction/blob/main/docs/som_pipeline.pdf).
 
 **Associated publication (dataset and method):** C. Renteria, W. Yan, Y. L. Huang, D. D. Arola, "Contributions to enamel durability with aging: An application of data science tools," *Journal of the Mechanical Behavior of Biomedical Materials* 129, 105147 (2022), [doi:10.1016/j.jmbbm.2022.105147](https://doi.org/10.1016/j.jmbbm.2022.105147).
 
@@ -104,13 +104,13 @@ pytest -m "not slow"    # fast, synthetic, CPU-only suite (what CI runs)
 pytest                  # everything
 ```
 
-Every push and pull request runs one gate, defined in [ci.yml](.github/workflows/ci.yml). Lint, format, and type checks cover the original pipeline and tests; the vendored SOMPY and the modified engine are excluded.
+Every push and pull request runs one gate, defined in [ci.yml](https://github.com/crentb/som-multimodal-datareduction/blob/main/.github/workflows/ci.yml). Lint, format, and type checks cover the original pipeline and tests; the vendored SOMPY and the modified engine are excluded.
 
 - **Quality:** ruff, black, mypy (advisory), and pytest with coverage on Python 3.10 to 3.14.
 - **Security (blocking):** gitleaks secret detection over the full history, bandit static analysis at medium severity and above, and pip-audit against known vulnerabilities.
 - **Container:** image build, a trivy scan that blocks on fixable critical and high findings, the test suite run inside the image, and an SPDX software bill of materials signed keylessly with cosign.
 
-The same gate re-runs weekly on `main` ([scheduled-scan.yml](.github/workflows/scheduled-scan.yml)), so a newly published vulnerability surfaces without a code change. A version tag re-runs it on the tagged commit before [release.yml](.github/workflows/release.yml) publishes to PyPI through Trusted Publishing (no stored tokens) and pushes a scanned, cosign-signed image with SLSA build provenance to the GitHub Container Registry. To verify a published image:
+The same gate re-runs weekly on `main` ([scheduled-scan.yml](https://github.com/crentb/som-multimodal-datareduction/blob/main/.github/workflows/scheduled-scan.yml)), so a newly published vulnerability surfaces without a code change. A version tag re-runs it on the tagged commit before [release.yml](https://github.com/crentb/som-multimodal-datareduction/blob/main/.github/workflows/release.yml) publishes to PyPI through Trusted Publishing (no stored tokens) and pushes a scanned, cosign-signed image with SLSA build provenance to the GitHub Container Registry. To verify a published image:
 
 ```bash
 cosign verify ghcr.io/crentb/som-multimodal-datareduction:v0.2.0 \
@@ -119,7 +119,7 @@ cosign verify ghcr.io/crentb/som-multimodal-datareduction:v0.2.0 \
 gh attestation verify oci://ghcr.io/crentb/som-multimodal-datareduction:v0.2.0 --owner crentb
 ```
 
-To report a vulnerability, see [SECURITY.md](SECURITY.md).
+To report a vulnerability, see [SECURITY.md](https://github.com/crentb/som-multimodal-datareduction/blob/main/SECURITY.md).
 
 ## Attribution
 
@@ -129,11 +129,11 @@ This project **builds on, and contains modified copies of, prior open-source wor
 - **tfprop_sompy**: Gota Kikugawa and Yuta Nishimura (Tohoku University). The visualization layer, used here in **modified** form.
 - Notebook and template lineage: Tim Letz (UW SOM lab) and the Huang group (UW) MSESOM.
 
-Full details and per-file modification notes: [NOTICE](NOTICE) and [som_multimodal/engine/ACKNOWLEDGMENTS.md](som_multimodal/engine/ACKNOWLEDGMENTS.md).
+Full details and per-file modification notes: [NOTICE](https://github.com/crentb/som-multimodal-datareduction/blob/main/NOTICE) and [som_multimodal/engine/ACKNOWLEDGMENTS.md](https://github.com/crentb/som-multimodal-datareduction/blob/main/som_multimodal/engine/ACKNOWLEDGMENTS.md).
 
 ## Citation
 
-Please cite the **JMBBM 2022 paper** above (the dataset and method) and this software. GitHub's "Cite this repository" button reads [CITATION.cff](CITATION.cff).
+Please cite the **JMBBM 2022 paper** above (the dataset and method) and this software. GitHub's "Cite this repository" button reads [CITATION.cff](https://github.com/crentb/som-multimodal-datareduction/blob/main/CITATION.cff).
 
 ```bibtex
 @software{renteria_som_multimodal_datareduction,
@@ -149,4 +149,4 @@ Please cite the **JMBBM 2022 paper** above (the dataset and method) and this sof
 
 ## License
 
-[Apache-2.0](LICENSE). Vendored and modified upstream code is redistributed under its original Apache-2.0 terms, with attribution preserved.
+[Apache-2.0](https://github.com/crentb/som-multimodal-datareduction/blob/main/LICENSE). Vendored and modified upstream code is redistributed under its original Apache-2.0 terms, with attribution preserved.

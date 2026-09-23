@@ -4,4 +4,4 @@ import som_multimodal
 
 
 def test_version():
-    assert som_multimodal.__version__ == "0.2.0"
+    assert som_multimodal.__version__ == "0.2.1"

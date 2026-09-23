@@ -6,6 +6,8 @@ All notable changes to this project are documented in this file. The format is b
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-09-23
+
 ### Changed
 - Continuous integration: GitHub Actions updated to their current major versions (Node 24
   runtimes), gitleaks 8.30.1, and the test matrix extended to Python 3.10 through 3.14.
@@ -14,6 +16,7 @@ All notable changes to this project are documented in this file. The format is b
   pinned to the same versions.
 - README reorganized: status badges (CI, PyPI, Python, DOI, license), installation from
   PyPI and the GitHub Container Registry, a testing and CI section, and a citation entry.
+- README links are absolute URLs, so figures and linked files also render on PyPI.
 - Overview figure redrawn for legibility, with its LaTeX source in `docs/figures/src/`.
 
 ### Added
@@ -21,7 +24,7 @@ All notable changes to this project are documented in this file. The format is b
 - `doi` in `CITATION.cff` (Zenodo concept DOI).
 
 ### Fixed
-- `som_multimodal.__version__` reports 0.2.0, matching the released package.
+- `som_multimodal.__version__` matches the package version (0.2.0 shipped reporting 0.1.0).
 
 ## [0.2.0] - 2026-07-16
 
