@@ -25,6 +25,6 @@ Command-line entry points:
 
 from som_multimodal.config import DEFAULT_FEATURES, RunConfig
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 __all__ = ["RunConfig", "DEFAULT_FEATURES", "__version__"]
