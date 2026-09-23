@@ -1,7 +1,7 @@
 # Minimal container that installs the package (core + dev tools) and can run the
 # test suite. No GPU / deep-learning stack is needed. CI builds this image and runs
 # `pytest -m "not slow"` inside it as a clean-environment smoke test.
-FROM python:3.11-slim
+FROM python:3.14-slim
 
 # PyTables (the `tables` wheel) needs the HDF5 runtime; install it from apt.
 # The same layer also applies Debian security updates to the packages
