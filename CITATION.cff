@@ -13,6 +13,7 @@ authors:
 version: "0.2.0"
 date-released: "2026-07-16"
 license: "Apache-2.0"
+doi: "10.5281/zenodo.21148597"
 repository-code: "https://github.com/crentb/som-multimodal-datareduction"
 keywords:
   - "self-organizing map"
