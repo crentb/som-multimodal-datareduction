@@ -17,7 +17,7 @@ description     = "Self-Organizing-Map data reduction for multimodal materials d
 readme          = "README.md"
 requires-python = ">=3.10"
 license         = { text = "Apache-2.0" }
-authors         = [{ name = "Cameron B. Renteria", email = "crentb@uw.edu" }]
+authors         = [{ name = "Cameron B. Renteria", email = "crentb23@gmail.com" }]
 keywords = [
     "self-organizing map", "SOM", "unsupervised learning", "multimodal",
     "data reduction", "clustering", "materials science", "tooth enamel",
