@@ -12,7 +12,7 @@ Self-organizing maps (SOMs) and k-means for multimodal materials data: high-dime
 
 A reproducible command-line pipeline, and the packaged version of the analysis behind the paper below, in which nanomechanical, Raman, and fracture measurements of tooth enamel are fused to map structure-property relationships with aging across species. Vector schematic: [docs/som_pipeline.pdf](https://github.com/crentb/som-multimodal-datareduction/blob/main/docs/som_pipeline.pdf).
 
-**Associated publication (dataset and method):** C. Renteria, W. Yan, Y. L. Huang, D. D. Arola, "Contributions to enamel durability with aging: An application of data science tools," *Journal of the Mechanical Behavior of Biomedical Materials* 129, 105147 (2022), [doi:10.1016/j.jmbbm.2022.105147](https://doi.org/10.1016/j.jmbbm.2022.105147).
+**Associated publication (dataset and method):** C. Renteria, W. Yan, Y. L. Huang, D. D. Arola, "Contributions to enamel durability with aging: An application of data science tools," *Journal of the Mechanical Behavior of Biomedical Materials* 129, 105147 (2022), Special Issue: New Frontiers in Applications of Artificial Intelligence and Machine Learning in Biomaterials, Organs and Tissues, [doi:10.1016/j.jmbbm.2022.105147](https://doi.org/10.1016/j.jmbbm.2022.105147).
 
 ## Data
 
@@ -20,9 +20,13 @@ The shipped dataset, `data/general_main.csv` (138 measurements), carries eight f
 
 ## Outputs
 
-![Results on the bundled enamel dataset: (a) component planes of the eight properties over the trained 25 by 25 map, with the k-means cluster borders in gold; (b) the U-matrix, with every measurement on its best-matching node; (c) the six k-means clusters, with measurements marked as human (108) or other mammals (30)](https://raw.githubusercontent.com/crentb/som-multimodal-datareduction/main/docs/figures/som_results.png)
+![Figure 6 of the associated paper: self-organizing-map heat maps of the old enamel group for crystallinity (FWHM), carbonate ratio, fluoridation, elastic modulus, hardness, apparent fracture toughness and brittleness on the trained 25 by 25 map, with the k-means zones drawn in black](https://raw.githubusercontent.com/crentb/som-multimodal-datareduction/main/docs/figures/jmbbm2022_fig6_som_heat_maps.jpg)
 
-The maps above come from the quick-start run on the bundled data (`som-pipeline --data-csv data/general_main.csv --n-clusters 6`). [make_results_figure.py](https://github.com/crentb/som-multimodal-datareduction/blob/main/docs/figures/src/make_results_figure.py) redraws them from the saved codebook in the palette of the overview, with the same clusters as the figures the pipeline itself writes:
+![Figure 7 of the associated paper: cluster maps of the primary, young and old enamel groups, with each measurement colored by its region (outer, middle or inner enamel); with age, the data stratify by region](https://raw.githubusercontent.com/crentb/som-multimodal-datareduction/main/docs/figures/jmbbm2022_fig7_cluster_maps.jpg)
+
+*Figures 6 and 7 of C. Renteria, W. Yan, Y. L. Huang, D. D. Arola, "Contributions to enamel durability with aging: An application of data science tools," J. Mech. Behav. Biomed. Mater. 129, 105147 (2022), Special Issue: New Frontiers in Applications of Artificial Intelligence and Machine Learning in Biomaterials, Organs and Tissues, [doi:10.1016/j.jmbbm.2022.105147](https://doi.org/10.1016/j.jmbbm.2022.105147). © 2022 Elsevier Ltd.; reproduced by the authors with full acknowledgement.* The heat maps are the pipeline's component planes and the cluster maps its cluster-category maps, computed in the paper for each age group.
+
+Run on the bundled data (`som-pipeline --data-csv data/general_main.csv --n-clusters 6`), the pipeline writes the figures below; [make_results_figure.py](https://github.com/crentb/som-multimodal-datareduction/blob/main/docs/figures/src/make_results_figure.py) redraws a run's maps in the palette of the overview ([example](https://raw.githubusercontent.com/crentb/som-multimodal-datareduction/main/docs/figures/som_results.png)).
 
 | Figure | Description |
 |--------|-------------|
@@ -148,6 +152,17 @@ Please cite the **JMBBM 2022 paper** above (the dataset and method) and this sof
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.21148597},
   url       = {https://github.com/crentb/som-multimodal-datareduction}
+}
+
+@article{renteria_2022_enamel_durability,
+  author  = {Renteria, Cameron and Yan, Wei and Huang, Yue Luna and Arola, Dwayne D.},
+  title   = {Contributions to enamel durability with aging: An application of data science tools},
+  journal = {Journal of the Mechanical Behavior of Biomedical Materials},
+  volume  = {129},
+  pages   = {105147},
+  year    = {2022},
+  note    = {Special Issue: New Frontiers in Applications of Artificial Intelligence and Machine Learning in Biomaterials, Organs and Tissues},
+  doi     = {10.1016/j.jmbbm.2022.105147}
 }
 ```
 

@@ -6,7 +6,8 @@ fracture data with specimen metadata. This is the dataset behind:
 
 > C. Renteria, W. Yan, Y. L. Huang, D. D. Arola, "Contributions to enamel durability
 > with aging: An application of data science tools," *J. Mech. Behav. Biomed. Mater.*
-> 129, 105147 (2022). doi:10.1016/j.jmbbm.2022.105147
+> 129, 105147 (2022), Special Issue: New Frontiers in Applications of Artificial Intelligence and Machine Learning in Biomaterials, Organs and Tissues.
+> doi:10.1016/j.jmbbm.2022.105147
 
 Please cite that paper if you use this data. For exact measurement protocols and units,
 see the paper; the summary below documents each column's role in the pipeline.
