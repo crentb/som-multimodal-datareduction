@@ -20,6 +20,10 @@ The shipped dataset, `data/general_main.csv` (138 measurements), carries eight f
 
 ## Outputs
 
+![Results on the bundled enamel dataset: (a) component planes of the eight properties over the trained 25 by 25 map, with the k-means cluster borders in gold; (b) the U-matrix, with every measurement on its best-matching node; (c) the six k-means clusters, with measurements marked as human (108) or other mammals (30)](https://raw.githubusercontent.com/crentb/som-multimodal-datareduction/main/docs/figures/som_results.png)
+
+The maps above come from the quick-start run on the bundled data (`som-pipeline --data-csv data/general_main.csv --n-clusters 6`). [make_results_figure.py](https://github.com/crentb/som-multimodal-datareduction/blob/main/docs/figures/src/make_results_figure.py) redraws them from the saved codebook in the palette of the overview, with the same clusters as the figures the pipeline itself writes:
+
 | Figure | Description |
 |--------|-------------|
 | `component_planes.png` | One heat map per feature over the trained SOM grid, with k-means cluster borders overlaid; shows how each property varies and which properties co-vary. |
