@@ -51,7 +51,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.0", "pytest-cov>=4.1", "ruff==0.16.8", "black==26.5.1", "mypy==2.3.1", "pre-commit>=3.7"]
+dev = ["pytest>=8.0", "pytest-cov>=4.1", "ruff==0.16.8", "black==26.5.1", "mypy==2.4.0", "pre-commit>=3.7"]
 
 [project.scripts]
 som-train     = "som_multimodal.train:main"
